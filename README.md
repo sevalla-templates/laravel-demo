@@ -10,20 +10,13 @@ This repository demonstrates how to prepare a basic Laravel application for clou
 
 ### Getting Started
 
-1. Clone this repository
-2. Copy `.env.example` to `.env` and set `APP_KEY`:
-
-```text
-APP_KEY=base64:your-app-key-here
-```
-
-3. Run the following command to start the development environment:
-
-```bash
-docker compose up --build
-```
-
-Access the application at http://0.0.0.0:8080
+1. `git clone git@github.com:sevalla-templates/laravel-demo.git`
+2. `cp .env.example .env`
+3. Set `APP_KEY` variable from [here](https://laravel-encryption-key-generator.vercel.app/)
+4. `composer install`
+5. `npm i && npm run build`
+6. `docker-compose up --build`
+7. Access the application at http://localhost:8080
 
 ## Project Structure
 
